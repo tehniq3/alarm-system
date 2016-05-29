@@ -177,9 +177,11 @@ void keypadEvent(KeypadEvent eKey){
   if (password.evaluate()){
 //    Serial.println("Success");
   sistem++;
+  password.reset();
     //Add code to run if it works
   }else{
 //    Serial.println("Wrong");
     //add code to run if it did not work
+    password.reset();
   }
 }
