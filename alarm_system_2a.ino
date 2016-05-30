@@ -6,7 +6,7 @@ small changes by Nicu FLORICA (aka niq_ro) from http://www.arduinotehniq.com/
 
 #include <Keypad.h>                // library for keyboard
 #include <Password.h>              // library for password
-Password password = Password( "1234" );  // pasword
+Password password = Password( "1234" );  // password
 
 const byte rows = 4;                     // four rows       
 const byte cols = 3;                     // three columns
