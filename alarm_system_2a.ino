@@ -153,7 +153,7 @@ void loop()
       analogWrite(rosu, 240);
  //     Serial.println("Syren is active !");
  keypad.getKey();      
-      if(ceas >= timpmemorat + timpurlat * 1000) {caz = 2; analogWrite(rosu, 0);}
+      if(ceas >= timpmemorat + timpurlat * 1000) {caz = 2; digitalWrite(syrena, LOW); analogWrite(rosu, 0);}
       }
     }
   }
