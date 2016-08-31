@@ -4,8 +4,8 @@ Autor programu: Łukasz Więcek
 small changes by Nicu FLORICA (aka niq_ro) from http://www.arduinotehniq.com/
 */
 
-#include <Keypad.h>                // library for keyboard
-#include <Password.h>              // library for password
+#include <Keypad.h>                // library for keyboard http://playground.arduino.cc/uploads/Code/keypad.zip
+#include <Password.h>              // library for password http://playground.arduino.cc/uploads/Code/Password.zip
 Password password = Password( "1234" );  // password
 
 const byte rows = 4;                     // four rows       
